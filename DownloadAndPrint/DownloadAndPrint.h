@@ -19,4 +19,5 @@ FOUNDATION_EXPORT const unsigned char DownloadAndPrintVersionString[];
 #import "Print.h"
 #import "DownloadImage.h"
 #import "Print+test.h"
+#import "FrameworkManager.h"
 

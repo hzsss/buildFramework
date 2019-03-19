@@ -42,6 +42,9 @@
 		3EDA86CD2240BCF700024DB4 /* DownloadAndPrintDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA86CC2240BCF700024DB4 /* DownloadAndPrintDemoUITests.m */; };
 		3EDA86D92240BE5C00024DB4 /* DownloadAndPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB150EA223F3E8B00042100 /* DownloadAndPrint.framework */; };
 		3EDA86DA2240BED100024DB4 /* DownloadAndPrint.framework in Resources */ = {isa = PBXBuildFile; fileRef = 3EB150EA223F3E8B00042100 /* DownloadAndPrint.framework */; };
+		3EDA86DC2240C5B000024DB4 /* Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA86DB2240C5B000024DB4 /* Test.xib */; };
+		3EDA86DF2240C6A100024DB4 /* FrameworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDA86DD2240C6A100024DB4 /* FrameworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EDA86E02240C6A100024DB4 /* FrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA86DE2240C6A100024DB4 /* FrameworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +108,9 @@
 		3EDA86C82240BCF700024DB4 /* DownloadAndPrintDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadAndPrintDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDA86CC2240BCF700024DB4 /* DownloadAndPrintDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadAndPrintDemoUITests.m; sourceTree = "<group>"; };
 		3EDA86CE2240BCF700024DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDA86DB2240C5B000024DB4 /* Test.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test.xib; sourceTree = "<group>"; };
+		3EDA86DD2240C6A100024DB4 /* FrameworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkManager.h; sourceTree = "<group>"; };
+		3EDA86DE2240C6A100024DB4 /* FrameworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,9 @@
 				3EB15109223F42B500042100 /* DownloadImage.m */,
 				3EB1510D223F445D00042100 /* Print+test.h */,
 				3EB1510E223F445D00042100 /* Print+test.m */,
+				3EDA86DB2240C5B000024DB4 /* Test.xib */,
+				3EDA86DD2240C6A100024DB4 /* FrameworkManager.h */,
+				3EDA86DE2240C6A100024DB4 /* FrameworkManager.m */,
 			);
 			path = DownloadAndPrint;
 			sourceTree = "<group>";
@@ -250,6 +259,7 @@
 				3EB1510A223F42B500042100 /* DownloadImage.h in Headers */,
 				3EB1510F223F445D00042100 /* Print+test.h in Headers */,
 				3EB150FB223F3E8B00042100 /* DownloadAndPrint.h in Headers */,
+				3EDA86DF2240C6A100024DB4 /* FrameworkManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EDA866B2240809200024DB4 /* images in Resources */,
+				3EDA86DC2240C5B000024DB4 /* Test.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +480,7 @@
 			files = (
 				3EB15107223F423A00042100 /* Print.m in Sources */,
 				3EB1510B223F42B500042100 /* DownloadImage.m in Sources */,
+				3EDA86E02240C6A100024DB4 /* FrameworkManager.m in Sources */,
 				3EB15110223F445D00042100 /* Print+test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
