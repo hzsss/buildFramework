@@ -32,6 +32,8 @@
     FrameworkManager *manager = [[FrameworkManager alloc] init];
     self.xibView = [manager getViewFromXib];
     [self.view addSubview:self.xibView];
+    
+    [manager getImageUseAFN];
 }
 
 - (void)viewDidLayoutSubviews {
