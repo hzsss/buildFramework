@@ -7,7 +7,7 @@
 //
 
 #import "FrameworkManager.h"
-#import "AFNetworking.h"
+#import "KAFNetworking.h"
 
 @implementation FrameworkManager
 - (UIView *)getViewFromXib {
@@ -18,7 +18,7 @@
 
 - (void)getImageUseAFN {
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+    KAFURLSessionManager *manager = [[KAFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
     NSURL *url = [NSURL URLWithString:@"https://upload-images.jianshu.io/upload_images/6365912-7bca92ed1c76841e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
